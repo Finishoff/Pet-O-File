@@ -1,0 +1,44 @@
+{
+  "name": "pet-o-file",
+  "version": "1.0.0",
+  "description": "Adopt a new pet today!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THE-group-project/project2.git"
+  },
+  "keywords": [
+    "pet",
+    "adoption",
+    "dog",
+    "cat"
+  ],
+  "author": "Ferrin's Angel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/THE-group-project/project2/issues"
+  },
+  "homepage": "https://github.com/THE-group-project/project2#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "foobar": "^1.1.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "node-gyp": "^3.8.0",
+    "path": "^0.12.7",
+    "petfinder": "^0.1.1",
+    "sequelize": "^4.42.0",
+    "validator": "^10.11.0",
+    "zipcode": "^0.1.1"
+  }
+}
