@@ -28,12 +28,12 @@ module.exports = function(sequelize, DataTypes) {
                 type: DataTypes.STRING,
                 allowNull: false,
                 unique: {
-                    msg: 'Email in the System!'
+                    msg: 'Email already registered!'
                 },
                 //checks for email format (foo@bar.com) via validators.js & sequelize
                 validate: {
                     isEmail: {
-                        msg: 'The email has wrong format!'
+                        msg: 'Invalid email!'
                     }
 
                 }
